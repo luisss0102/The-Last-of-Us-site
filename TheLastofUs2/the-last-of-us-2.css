@@ -1,0 +1,12 @@
+body{
+	 background-image: url('the_last_of_us_part2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  color: white;
+}
+#part2{
+  border: 5px solid black;
+  padding: 350px;
+  margin: 97px;
+}

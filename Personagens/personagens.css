@@ -1,0 +1,33 @@
+h2 {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+#texto{
+ color: white;
+ width: 700px;  
+border: 2px solid white;
+margin: 80px;
+padding: 5px;
+}
+body{
+    background-image: url('thumb.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover; 
+ } 
+ #botao{
+    border: transparent;
+    background: transparent;
+    padding: 20px;
+ }
+ #botao a {
+    color: white;
+    text-transform: uppercase;
+    
+ }
+ #botao a:hover {
+    color: red;
+    text-transform: uppercase;
+    
+ }

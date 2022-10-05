@@ -1,0 +1,40 @@
+ body{
+    background-image: url('speed_run.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover; 
+ } 
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin-bottom: 80px;
+  padding: 5px;
+}
+
+th, td {
+  padding: 15px;
+}
+#texto{
+    color: white;
+}
+table, td, th {  
+  border: 2px solid black;
+ border-collapse: collapse;
+  padding: 3px;
+color: white;
+margin: 0 auto;
+}
+#texto{
+  color: white;
+}
+  #inicial{
+color: white;
+  }
+  #fim{
+    color: white;
+  }
+.bandeira{
+  width: 25px;
+  height: auto;
+  margin: 0 auto;
+}

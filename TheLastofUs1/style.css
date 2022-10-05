@@ -1,0 +1,45 @@
+ body{
+  background-image: url('the_last_of_us1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover; 
+}
+
+    
+ 
+#container-wallpaper {
+    display: flex;
+}   
+
+#container-wallpaper img {
+    width: 49%;
+    opacity: 80%;
+    object-fit: cover;
+
+    transition: 0.5s ease-in-out;
+}
+
+#container-wallpaper img:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
+
+#divise-image-wallpaper {
+    border: 1px solid white;
+}
+
+#container-mini-description {
+    border-top: 2px solid white;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+p{
+    color: white;
+}
+.jogos{
+
+    color: white;
+
+}

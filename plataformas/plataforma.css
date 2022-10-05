@@ -1,0 +1,63 @@
+#container-wallpaper {
+    display: flex;
+}   
+
+#container-wallpaper img {
+    width: 49%;
+    opacity: 80%;
+    object-fit: cover;
+
+    transition: 0.5s ease-in-out;
+}
+
+#container-wallpaper img:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
+
+#divise-image-wallpaper {
+    border: 1px solid white;
+}
+
+#container-mini-description {
+    border-top: 2px solid white;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+p{
+    color: white;
+}
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin-bottom: 80px;
+}
+
+th, td {
+  padding: 15px;
+}
+#texto{
+    color: white;
+}
+table, td, th {  
+  border: 1px solid #ddd;
+ border-collapse: collapse;
+  padding: 3px;
+  align-content: center;
+}
+body{
+    background-image: url('img.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover; 
+ } 
+ #jogos{
+    color: black;
+ }

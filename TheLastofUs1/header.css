@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: black;
+      background-image: url('the_last_of_us1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+    coor
+}
+
+header {
+    background-color: white;
+    border-bottom: 2px solid grey;
+}
+
+.box-limit {
+    position: relative;
+    width: 1450px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+
+a h1 {
+    font-family: 'Amatic SC', Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    border-right: 3px solid black;
+    display: inline-flex;
+    padding: 6px;
+
+    transition: 0.5s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a h1:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-color: grey;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 18px;
+}
+
+nav ul li {
+    display: flex;
+    margin-left: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+
+    transition: 0.5s ease-in-out;
+}
+
+
+nav ul li:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}

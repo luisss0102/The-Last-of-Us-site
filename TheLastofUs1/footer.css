@@ -1,0 +1,10 @@
+body{
+     background-image: url('the_last_of_us1.jpg');
+}
+footer {
+    color:  black;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    border-top: 2px solid gainsboro;
+}
